@@ -457,7 +457,7 @@ public class WarehouseAgent extends Agent{
 		}
 	}
 	
-	// Request supplies to the suppliers
+	// Request supplies from the suppliers
 	private class RequestSuppliesToSuppliersBehaviour extends OneShotBehaviour{
 		public void action() {
 			// Minimise warehouse expenses by making sure that all the supplies for an order arrive the same day

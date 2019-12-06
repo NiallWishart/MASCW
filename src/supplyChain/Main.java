@@ -48,12 +48,6 @@ public class Main {
 			customerAgent2.start();
 			AgentController customerAgent3 = myContainer.createNewAgent("CutomerAgent3", CustomerAgent.class.getCanonicalName(), null);
 			customerAgent3.start();
-			AgentController customerAgent4 = myContainer.createNewAgent("CutomerAgent4", CustomerAgent.class.getCanonicalName(), null);
-			customerAgent4.start();
-			AgentController customerAgent5 = myContainer.createNewAgent("CutomerAgent5", CustomerAgent.class.getCanonicalName(), null);
-			customerAgent5.start();
-			AgentController customerAgent6 = myContainer.createNewAgent("CutomerAgent6", CustomerAgent.class.getCanonicalName(), null);
-			customerAgent6.start();
 		}
 		catch(Exception e){
 			System.out.println("Exception starting agent: " + e.toString());
